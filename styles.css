@@ -22,7 +22,32 @@
 
 
 		}
+		#sec1 {
+			font-family: courier;
+			font-size: 30px;
+			font-weight: normal;
 
+			border: 3px solid black;
+
+			margin-top: 5px;
+
+
+		}
+		#sec2 {
+			font-family: "Times New Roman",Times,sans-serif;
+			font-size: 40px;
+			font-weight: 500;
+
+			border: 3px solid red;
+			margin-top: 5px;
+
+
+		}
+
+		.name{			
+			font-weight: bold;
+
+		}
 		table {
 			
 			width: 50%;
@@ -35,6 +60,7 @@
 		th, td {
 			padding: 5px;
 			border: 1px dotted black;
+			text-align: center;
 
 		}
 		th
