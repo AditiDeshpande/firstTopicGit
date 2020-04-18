@@ -3,4 +3,42 @@
 			color: rgb(255, 0, 0);
 			text-align: center;
 		}
+
+		/*div {
+			background-color: teal;
+			width: 100px;
+			height: 400px;
+			margin: 30px;
+			padding: 20px;
+
+		}*/
+
+		div{
+			font-family: Arial,sans-serif;
+			font-size: 50px;
+			font-weight: bold;
+
+			border: 3px dotted chocolate;
+
+
+		}
+
+		table {
+			
+			width: 50%;
+			height: 50%;
+			border: 2px solid teal;
+			margin: 30px;
+			border-collapse: collapse;
+		}
+
+		th, td {
+			padding: 5px;
+			border: 1px dotted black;
+
+		}
+		th
+		{
+			background-color: red;
+		}
 	
