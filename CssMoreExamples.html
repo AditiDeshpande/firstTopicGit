@@ -15,6 +15,30 @@
       {
         background-color: yellow;
       }
+      button {
+        width: 200px;
+        height: 50px;
+        font-size: 24px;
+        background-color: green;
+
+      }
+      button:hover
+      {
+        background-color: orange;
+      }
+      h1::before {
+        content: url(smiley.gif);
+      }
+      a::before {
+        content: "\21d2 Click here: ";
+        font-weight: bold;
+      }
+      p,h1::selection {
+        background-color: yellow;
+        color: red;
+
+      }
+
     </style>
   </head>
   <body>
@@ -37,5 +61,22 @@
 <input type="password" name="pwd" placeholder="Password">
 <input type="number" name="age" placeholder="Age">
 
+<button>Click Me</button>
+
+<ul>
+
+  <li><a href="#">First link</a></li>
+  <li><a href="#">Second link</a></li>
+  <li><a href="#">Third link</a></li>
+</ul>
+
+<h1>This is a heading</h1>
+
+<p><h1>Learning Git HTML CSS5 Learning Git HTML CSS5 Learning Git HTML CSS5
+  Learning Git HTML CSS5 Learning Git HTML CSS5 Learning Git HTML CSS5
+  Learning Git HTML CSS5 Learning Git HTML CSS5 Learning Git HTML CSS5
+  Learning Git HTML CSS5 Learning Git HTML CSS5 Learning Git HTML CSS5
+  Learning Git HTML CSS5 Learning Git HTML CSS5 Learning Git HTML CSS5
+</h1></p>
   </body>
 </html>
